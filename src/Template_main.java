@@ -10,12 +10,14 @@ import java.util.logging.Logger;
  */
 public class Template_main {
 
+    public static String[] queryProteins = {"T0669", "T0680", "T0696", "T0859"};;
+    public static int k = 3;
     public static void main(String[] args) throws IOException {
 
 
         //*3zqc, 2k9n, 3osf, 1h88, 2dim, 2d9n*//
         String[] fileName = {"3ey7+3ghj", "3ey7+3r4q", "3ghj+3rri", "3rri+4rt5"};
-        int k, i;
+        int i;
 
           /*   for(int i=0;i<4;i++)
              {
@@ -23,14 +25,12 @@ public class Template_main {
               nw.Matched(fileName[i]);
              }*/
 
-
-        String[] queryProteins = {"T0669", "T0680", "T0696"};
         String p = null;
         Neddle_wnch nw = new Neddle_wnch();
 
-        String[] pairProteins = fileRead(queryProteins[0]);
+        String[] pairProteins = fileRead(queryProteins[k]);
 
-        for (i = 0, k = 0; i < 5; i++) {
+        for (i = 0; i < 5; i++) {
 
             System.out.println(pairProteins.length + ":" + queryProteins[k] + pairProteins[i] + "test");
             nw.Matched(queryProteins[k], pairProteins[i]);
@@ -49,7 +49,7 @@ public class Template_main {
 
 
         String[] pairs = new String[10];
-        String file_path = "/Users/maliha.sarwat/Desktop/NE/Thesis_2017/";
+        String file_path = "/Users/maliha.sarwat/Desktop/NE/Thesis_2017/NewPDB/";
         BufferedReader br = null;
         int i = 0;
 

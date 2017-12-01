@@ -2,6 +2,8 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  * Created by maliha.sarwat on 11/18/17.
@@ -9,15 +11,21 @@ import java.util.StringTokenizer;
 public class WritePDB {
     public static void main(String[] args) throws IOException {
 
-      //  String[] TO680_proteins = new String[]{"1YO7.pdb", "3U8V.pdb", "4FM3.pdb", "4k0D.pdb"};
-      //  String[] TO669_proteins = new String[]{"1PQX.pdb", "2K1H.pdb", "2LTL.pdb", "2LTM.pdb"};
+        //  String[] TO680_proteins = new String[]{"1YO7.pdb", "3U8V.pdb", "4FM3.pdb", "4k0D.pdb"};
+        //  String[] TO669_proteins = new String[]{"1PQX.pdb", "2K1H.pdb", "2LTL.pdb", "2LTM.pdb"};
 //        String[] TO669_proteins = new String[]{"1PQX.pdb", "2K1H.pdb", "2LTL.pdb", "2LTM.pdb"};
 
 
-     //   for(int i=0; i<4; i++)
-       // readPdb(TO669_proteins[i]);
+        //   for(int i=0; i<4; i++)
+        // readPdb(TO669_proteins[i]);
 
-        readPdb("2K1H.pdb");
+        //readPdb("2K1H.pdb");
+        String[] homologs = fileRead(Template_main.queryProteins[Template_main.k]);
+
+        for (int i = 0; i < 4; i++) {
+            System.out.print(homologs[i]);
+            readPdb(homologs[i]);
+        }
 
     }
 
@@ -37,7 +45,8 @@ public class WritePDB {
             float x, y, z;
             String type, symbol;
             // String file_path="/Users/maliha.sarwat/Desktop/Thesis_2017/T0669/";
-            String file_path = "/Users/maliha.sarwat/Desktop/NE/Thesis_2017/T0669/";
+            //      String file_path = "/Users/maliha.sarwat/Desktop/NE/Thesis_2017/T0669/";
+            String file_path = "/Users/maliha.sarwat/Desktop/NE/Thesis_2017/NewPDB/" + Template_main.queryProteins[Template_main.k] + "/";
 
             br = new BufferedReader(new FileReader(file_path + pdb_file));
             List<AVG_PDB.Atom> atom = new ArrayList<AVG_PDB.Atom>();
@@ -107,8 +116,8 @@ public class WritePDB {
 
     static void writePDBCordinates(AVG_PDB.Template template) throws IOException {
 
-      //  String fileName = template.template_name.split(".")[0];
-        File fout = new File("/Users/maliha.sarwat/Desktop/NE/Thesis_2017/T0669_coords/BaseConsensus/" + template.template_name + ".txt");
+        //  String fileName = template.template_name.split(".")[0];
+        File fout = new File("/Users/maliha.sarwat/Desktop/NE/Thesis_2017/NewPDB/" + Template_main.queryProteins[Template_main.k] + "/Coordinates/" + template.template_name + ".txt");
         FileOutputStream fos = null;
         try {
             fos = new FileOutputStream(fout);
@@ -163,5 +172,35 @@ public class WritePDB {
             }
 
         }*/
+    }
+
+    public static String[] fileRead(String queryFolder) throws IOException {
+
+        System.out.print(queryFolder);
+
+        String[] pairs = new String[10];
+        String file_path = "/Users/maliha.sarwat/Desktop/NE/Thesis_2017/NewPDB/";
+        BufferedReader br = null;
+        int i = 0;
+
+        try {
+
+            br = new BufferedReader(new FileReader(file_path + queryFolder + "/homologs" + ".txt"));
+            String temp = null;
+
+            while ((temp = br.readLine()) != null && !temp.startsWith(">")) {
+
+
+                pairs[i++] = temp;
+                System.out.print(pairs[i]);
+
+
+            }
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(TemplateMatching.class.getName()).log(Level.SEVERE, null, ex);
+
+        }
+
+        return pairs;
     }
 }

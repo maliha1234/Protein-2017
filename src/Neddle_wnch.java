@@ -42,7 +42,7 @@ public class Neddle_wnch {
 
 
         //String file_path="E:\\4-2\\Thesis 4-2\\TemplateMatching_1\\";
-        String file_path = "/Users/maliha.sarwat/Desktop/NE/Thesis_2017/";
+        String file_path = "/Users/maliha.sarwat/Desktop/NE/Thesis_2017/NewPDB/";
 
         int strLen, flag = 0, total_match = 0;
         char[] sequence2 = new char[350];

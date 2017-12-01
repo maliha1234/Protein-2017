@@ -188,8 +188,10 @@ public class AVG_PDB {
             int[] matched_align;
             float x, y, z;
             String type, symbol;
-        //     String file_path="/Users/maliha.sarwat/Desktop/NE/Thesis_2017/T0669/";
-            String file_path = "/Users/maliha.sarwat/Desktop/NE/Thesis_2017/T0680/";
+            //     String file_path="/Users/maliha.sarwat/Desktop/NE/Thesis_2017/T0669/";
+            ///   String file_path = "/Users/maliha.sarwat/Desktop/NE/Thesis_2017/T0680/";
+
+            String file_path = "/Users/maliha.sarwat/Desktop/NE/Thesis_2017/NewPDB/" + Template_main.queryProteins[Template_main.k] + "/";
 
             br = new BufferedReader(new FileReader(file_path + pdb_file));
             List<Atom> atom = new ArrayList<Atom>();
@@ -256,9 +258,9 @@ public class AVG_PDB {
     }
 
 
-    static void writePDBCordinates( Template template) throws IOException {
+    static void writePDBCordinates(Template template) throws IOException {
 
-        File fout = new File("/Users/maliha.sarwat/Desktop/NE/Thesis_2017/"+ template.template_name+ ".txt");
+        File fout = new File("/Users/maliha.sarwat/Desktop/NE/Thesis_2017/" + template.template_name + ".txt");
         FileOutputStream fos = null;
         try {
             fos = new FileOutputStream(fout);
@@ -314,6 +316,7 @@ public class AVG_PDB {
 
         }*/
     }
+
     public static void main(String[] args) throws IOException {
         
        
@@ -366,8 +369,8 @@ public class AVG_PDB {
 
 
         Neddle_wnch nw = new Neddle_wnch();
-       int matched_count = nw.Matched("T0680", "3u8v+4fm3");
-       // int matched_count= nw.Matched("T0669","2k1h+1pqx");
+        int matched_count = nw.Matched("T0680", "3u8v+4fm3");
+        // int matched_count= nw.Matched("T0669","2k1h+1pqx");
         //    seq_drmsd=mg.calc_initial_drmsd(templates, concensus, matched_count);
         System.out.println("initial drmsd:");
         System.out.println("matched count:" + matched_count);
