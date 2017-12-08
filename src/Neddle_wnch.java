@@ -3,6 +3,8 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -17,8 +19,10 @@ import java.util.logging.Logger;
 public class Neddle_wnch {
 
     TemplateMatching.Template t;
-    char[] mSeqA;
-    char[] mSeqB;
+    List<String> sequence1;
+    List<String> sequence2;
+    List<String> mSeqA;
+    List<String> mSeqB;
     int[][] mD;
     int mScore;
     String mAlignmentSeqA = "";
@@ -46,8 +50,8 @@ public class Neddle_wnch {
         String file_path = "/Users/maliha.sarwat/Desktop/NE/Thesis_2017/NewPDB/";
 
         int strLen, flag = 0, total_match = 0;
-        char[] sequence2 = new char[450];
-        char[] sequence1 = new char[450];
+        sequence2 = new ArrayList<>();
+        sequence1 = new ArrayList<>();
         BufferedReader br = null;
         String final_path;
         try {
@@ -67,12 +71,11 @@ public class Neddle_wnch {
 
                 if (!sCurrentLine.startsWith(">") && flag == 1) {
 
-                   System.out.println("seq 1: ");
 
                     for (i = j, k = 0; k < tmp.length(); i++, k++) {
-                        if(tmp.charAt(k)!= '\u0000') {
-                            sequence1[i] = tmp.charAt(k);
-                            System.out.print(tmp.charAt(k));
+                        if (tmp.charAt(k) != '\u0000') {
+                            sequence1.add(new String(String.valueOf(tmp.charAt(k))));
+                            //             System.out.print(tmp.charAt(k));
                         }
                     }
 
@@ -80,12 +83,10 @@ public class Neddle_wnch {
 
                 } else if (!sCurrentLine.startsWith(">") && flag == 0) {
 
-                     System.out.println("\nseq 2");
-
                     for (i = j, k = 0; k < tmp.length(); i++, k++) {
-                        if(tmp.charAt(k)!= '\u0000') {
-                            sequence2[i] = tmp.charAt(k);
-                            System.out.print(tmp.charAt(k));
+                        if (tmp.charAt(k) != '\u0000') {
+                            sequence2.add(new String(String.valueOf(tmp.charAt(k))));
+                            //           System.out.print(tmp.charAt(k));
                         }
                     }
 
@@ -113,12 +114,22 @@ public class Neddle_wnch {
             Logger.getLogger(TemplateMatching.class.getName()).log(Level.SEVERE, null, ex);
         }
 
+        System.out.println("\nfinal seq 1  " + sequence1.size());
 
+        for (int i = 0; i < sequence1.size(); i++) {
+
+            System.out.print(sequence1.get(i));
+        }
+
+        System.out.println("\nfinal seq 2  " + sequence2.size());
+        for (int i = 0; i < sequence2.size(); i++) {
+            System.out.print(sequence2.get(i));
+        }
 
         init(sequence1, sequence2);
         process();
         backtrack();
-        // printMatrix();
+        //   printMatrix();
         System.out.println();
         total_match = printScoreAndAlignments();
 
@@ -127,13 +138,13 @@ public class Neddle_wnch {
     }
 
 
-    void init(char[] seqA, char[] seqB) {
+    void init(List<String> seqA, List<String> seqB) {
         mSeqA = seqA;
         mSeqB = seqB;
         // System.out.print("helllooooo"+mSeqA.length);
-        mD = new int[mSeqA.length + 1][mSeqB.length + 1];
-        for (int i = 0; i <= mSeqA.length; i++) {
-            for (int j = 0; j <= mSeqB.length; j++) {
+        mD = new int[mSeqA.size() + 1][mSeqB.size() + 1];
+        for (int i = 0; i <= mSeqA.size(); i++) {
+            for (int j = 0; j <= mSeqB.size(); j++) {
                 if (i == 0) {
                     mD[i][j] = -j;
                 } else if (j == 0) {
@@ -146,8 +157,8 @@ public class Neddle_wnch {
     }
 
     void process() {
-        for (int i = 1; i <= mSeqA.length; i++) {
-            for (int j = 1; j <= mSeqB.length; j++) {
+        for (int i = 1; i <= mSeqA.size(); i++) {
+            for (int j = 1; j <= mSeqB.size(); j++) {
                 int scoreDiag = mD[i - 1][j - 1] + weight(i, j);
                 int scoreLeft = mD[i][j - 1] - 1;
                 int scoreUp = mD[i - 1][j] - 1;
@@ -157,23 +168,23 @@ public class Neddle_wnch {
     }
 
     void backtrack() {
-        int i = mSeqA.length;
-        int j = mSeqB.length;
+        int i = mSeqA.size();
+        int j = mSeqB.size();
         mScore = mD[i][j];
         while (i > 0 && j > 0) {
             if (mD[i][j] == mD[i - 1][j - 1] + weight(i, j)) {
-                mAlignmentSeqA += mSeqA[i - 1];
-                mAlignmentSeqB += mSeqB[j - 1];
+                mAlignmentSeqA += mSeqA.get(i - 1);
+                mAlignmentSeqB += mSeqB.get(j - 1);
                 i--;
                 j--;
                 continue;
             } else if (mD[i][j] == mD[i][j - 1] - 1) {
                 mAlignmentSeqA += "-";
-                mAlignmentSeqB += mSeqB[j - 1];
+                mAlignmentSeqB += mSeqB.get(j - 1);
                 j--;
                 continue;
             } else {
-                mAlignmentSeqA += mSeqA[i - 1];
+                mAlignmentSeqA += mSeqA.get(i - 1);
                 mAlignmentSeqB += "-";
                 i--;
                 continue;
@@ -184,7 +195,7 @@ public class Neddle_wnch {
     }
 
     private int weight(int i, int j) {
-        if (mSeqA[i - 1] == mSeqB[j - 1]) {
+        if (sequence1.get(i - 1).equalsIgnoreCase(sequence2.get(j - 1))) {
             return 1;
         } else {
             return -1;
@@ -193,8 +204,8 @@ public class Neddle_wnch {
 
     void printMatrix() {
         System.out.println("D =");
-        for (int i = 0; i < mSeqA.length + 1; i++) {
-            for (int j = 0; j < mSeqB.length + 1; j++) {
+        for (int i = 0; i < mSeqA.size() + 1; i++) {
+            for (int j = 0; j < mSeqB.size() + 1; j++) {
                 System.out.print(String.format("%4d ", mD[i][j]));
             }
             System.out.println();
@@ -225,7 +236,7 @@ public class Neddle_wnch {
 
         {
 
-            if (sequenceA[i] != '-' && sequenceB[i] != '-' && sequenceA[i]!= '\u0000' && sequenceB[i]!= '\u0000' ) {
+            if (sequenceA[i] != '-' && sequenceB[i] != '-') {
                 array[j] = sequenceA[i];
                 j++;
 
@@ -239,7 +250,7 @@ public class Neddle_wnch {
 
 
         count = j;
-        System.out.println("done" + count);
+        System.out.println("\ndone" + count);
         return count;
 
     }

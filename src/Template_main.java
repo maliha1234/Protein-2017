@@ -10,8 +10,8 @@ import java.util.logging.Logger;
  */
 public class Template_main {
 
-    public static String[] queryProteins = {"T0669", "T0680", "T0696", "T0859","T0921", "T0866"};;
-    public static int k = 5;
+    public static String[] queryProteins = {"T0669", "T0680", "T0696", "T0859","T0921", "T0866", "T0868", "T0877", "T0888"};;
+    public static int k = 8;
     public static void main(String[] args) throws IOException {
 
         int i;
@@ -23,13 +23,14 @@ public class Template_main {
              }*/
 
         String p = null;
-        Neddle_wnch nw = new Neddle_wnch();
 
         String[] pairProteins = fileRead(queryProteins[k]);
 
         for (i = 0; i < 5; i++) {
 
             System.out.println(pairProteins.length + ":" + queryProteins[k] + pairProteins[i] + "test");
+            Neddle_wnch nw = new Neddle_wnch();
+
             nw.Matched(queryProteins[k], pairProteins[i]);
             if (pairProteins[i] == "null") {
                 break;
