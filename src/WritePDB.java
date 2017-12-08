@@ -22,7 +22,7 @@ public class WritePDB {
         //readPdb("2K1H.pdb");
         String[] homologs = fileRead(Template_main.queryProteins[Template_main.k]);
 
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < homologs.length; i++) {
             System.out.print(homologs[i]);
             readPdb(homologs[i]);
         }
@@ -79,10 +79,12 @@ public class WritePDB {
                         z = Float.valueOf(l.get(8).toString());
                         type = "CA";
                         symbol = l.get(3).toString();
-                        seqid = Integer.parseInt(l.get(5).toString());
-                        atom.add(i, new AVG_PDB.Atom(x, y, z, type));
-                        //  atom.get(i).printAtoms(atom.get(i));
-                        aminoacid.add(i, new AVG_PDB.AminoAcid(atom.get(i), symbol, seqid));
+                        try {
+                            seqid = Integer.parseInt(l.get(5).toString());
+                            atom.add(i, new AVG_PDB.Atom(x, y, z, type));
+                            //  atom.get(i).printAtoms(atom.get(i));
+                            aminoacid.add(i, new AVG_PDB.AminoAcid(atom.get(i), symbol, seqid));
+                        }catch (Exception e){}
                         //      aminoacid.get(i).printAminoAcids(aminoacid.get(i));
                         //      System.out.println(i);
                         i++;

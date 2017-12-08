@@ -38,6 +38,7 @@ public class Neddle_wnch {
     }
 
     int Matched(String queryFile, String pairFile) throws IOException {
+        System.out.println("\n \n \n *********** ");
         String sCurrentLine;
 
 
@@ -45,8 +46,8 @@ public class Neddle_wnch {
         String file_path = "/Users/maliha.sarwat/Desktop/NE/Thesis_2017/NewPDB/";
 
         int strLen, flag = 0, total_match = 0;
-        char[] sequence2 = new char[350];
-        char[] sequence1 = new char[350];
+        char[] sequence2 = new char[450];
+        char[] sequence1 = new char[450];
         BufferedReader br = null;
         String final_path;
         try {
@@ -66,24 +67,26 @@ public class Neddle_wnch {
 
                 if (!sCurrentLine.startsWith(">") && flag == 1) {
 
-                    //System.out.println("seq 1: ");
+                   System.out.println("seq 1: ");
 
                     for (i = j, k = 0; k < tmp.length(); i++, k++) {
-                        sequence1[i] = tmp.charAt(k);
-
-
-                        // System.out.print(tmp.charAt(k));
+                        if(tmp.charAt(k)!= '\u0000') {
+                            sequence1[i] = tmp.charAt(k);
+                            System.out.print(tmp.charAt(k));
+                        }
                     }
 
                     j = i - 1;
 
                 } else if (!sCurrentLine.startsWith(">") && flag == 0) {
 
-                    // System.out.println("seq 2");
+                     System.out.println("\nseq 2");
 
                     for (i = j, k = 0; k < tmp.length(); i++, k++) {
-                        sequence2[i] = tmp.charAt(k);
-                        //  System.out.print(tmp.charAt(k));
+                        if(tmp.charAt(k)!= '\u0000') {
+                            sequence2[i] = tmp.charAt(k);
+                            System.out.print(tmp.charAt(k));
+                        }
                     }
 
                     j = i - 1;
@@ -111,6 +114,7 @@ public class Neddle_wnch {
         }
 
 
+        
         init(sequence1, sequence2);
         process();
         backtrack();
@@ -204,7 +208,7 @@ public class Neddle_wnch {
         System.out.println("Sequence B: " + mAlignmentSeqB);
         System.out.println();
         int c = newSeq(mAlignmentSeqA, mAlignmentSeqB);
-        System.out.println("done print" + c);
+        System.out.println("\n %%%%done print" + c);
 
         return c;
     }
@@ -221,7 +225,7 @@ public class Neddle_wnch {
 
         {
 
-            if (sequenceA[i] != '-' && sequenceB[i] != '-' && sequenceA[i]!= '\u0000') {
+            if (sequenceA[i] != '-' && sequenceB[i] != '-' && sequenceA[i]!= '\u0000' && sequenceB[i]!= '\u0000' ) {
                 array[j] = sequenceA[i];
                 j++;
 

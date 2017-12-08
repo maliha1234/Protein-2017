@@ -10,13 +10,10 @@ import java.util.logging.Logger;
  */
 public class Template_main {
 
-    public static String[] queryProteins = {"T0669", "T0680", "T0696", "T0859"};;
-    public static int k = 3;
+    public static String[] queryProteins = {"T0669", "T0680", "T0696", "T0859","T0921", "T0866"};;
+    public static int k = 5;
     public static void main(String[] args) throws IOException {
 
-
-        //*3zqc, 2k9n, 3osf, 1h88, 2dim, 2d9n*//
-        String[] fileName = {"3ey7+3ghj", "3ey7+3r4q", "3ghj+3rri", "3rri+4rt5"};
         int i;
 
           /*   for(int i=0;i<4;i++)
