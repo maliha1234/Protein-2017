@@ -114,7 +114,7 @@ public class Neddle_wnch {
         }
 
 
-        
+
         init(sequence1, sequence2);
         process();
         backtrack();
