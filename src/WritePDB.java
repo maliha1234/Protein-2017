@@ -19,7 +19,7 @@ public class WritePDB {
         //   for(int i=0; i<4; i++)
         // readPdb(TO669_proteins[i]);
 
-        //readPdb("2K1H.pdb");
+        //readPdb("5.pdb");
         String[] homologs = fileRead(Template_main.queryProteins[Template_main.k]);
 
         for (int i = 0; i < homologs.length; i++) {
@@ -54,11 +54,6 @@ public class WritePDB {
             List<AVG_PDB.AminoAcid> aminoacid = new ArrayList<AVG_PDB.AminoAcid>();
             while ((sCurrentLine = br.readLine()) != null) {
 
-                if (sCurrentLine.startsWith("TER")) {
-
-                    break;
-                }
-
                 if (sCurrentLine.startsWith("ATOM") || sCurrentLine.startsWith("HETATM")) {
 
 
@@ -69,26 +64,33 @@ public class WritePDB {
 
                         l.add(st.nextElement());
 
+//                        System.out.println("---- Split by space ------");
                     }
 
-                    if (l.get(2).equals("CA")) {
-                        //   System.out.println(sCurrentLine);
-                        //System.out.println(i);
-                        x = Float.valueOf(l.get(6).toString());
-                        y = Float.valueOf(l.get(7).toString());
-                        z = Float.valueOf(l.get(8).toString());
-                        type = "CA";
-                        symbol = l.get(3).toString();
-                        try {
-                            seqid = Integer.parseInt(l.get(5).toString());
-                            atom.add(i, new AVG_PDB.Atom(x, y, z, type));
-                            //  atom.get(i).printAtoms(atom.get(i));
-                            aminoacid.add(i, new AVG_PDB.AminoAcid(atom.get(i), symbol, seqid));
-                        }catch (Exception e){}
-                        //      aminoacid.get(i).printAminoAcids(aminoacid.get(i));
-                        //      System.out.println(i);
-                        i++;
-                        //  System.out.print(x+"____"+y+"_____"+z+"\n");
+                    System.out.print(l.get(2));
+                    try {
+                        if (l.get(2).equals("CA")) {
+                            System.out.println(sCurrentLine);
+                            //System.out.println(i);
+                            x = Float.valueOf(l.get(6).toString());
+                            y = Float.valueOf(l.get(7).toString());
+                            z = Float.valueOf(l.get(8).toString());
+                            type = "CA";
+                            symbol = l.get(3).toString();
+                            try {
+                                seqid = Integer.parseInt(l.get(5).toString());
+                                atom.add(i, new AVG_PDB.Atom(x, y, z, type));
+                                //  atom.get(i).printAtoms(atom.get(i));
+                                aminoacid.add(i, new AVG_PDB.AminoAcid(atom.get(i), symbol, seqid));
+                            } catch (Exception e) {
+                            }
+                            //      aminoacid.get(i).printAminoAcids(aminoacid.get(i));
+                            System.out.println(i);
+                            i++;
+                            System.out.print(x + "____" + y + "_____" + z + "\n");
+                        }
+                    }catch (Exception e){
+                        e.printStackTrace();
                     }
                 }
             }

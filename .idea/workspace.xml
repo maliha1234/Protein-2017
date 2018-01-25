@@ -1,0 +1,1520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da3a55c3-1099-4a83-8b75-26ee8249d6f3" name="Default" comment="test">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/DatasetJanuary2018.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/T0891.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/T0895.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Thesis_2017/AVG_PDB$AminoAcid.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Thesis_2017/AVG_PDB$Atom.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Thesis_2017/AVG_PDB$Structure.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Thesis_2017/AVG_PDB$Template.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Thesis_2017/AVG_PDB.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Thesis_2017/HomologsRead.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Thesis_2017/ModelGeneration.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Thesis_2017/NWAlign.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Thesis_2017/Neddle_wnch.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Thesis_2017/TemplateMatching$AminoAcid.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Thesis_2017/TemplateMatching$Atom.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Thesis_2017/TemplateMatching$Structure.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Thesis_2017/TemplateMatching$Template.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Thesis_2017/TemplateMatching.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Thesis_2017/Template_main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Thesis_2017/TestClass$AminoAcid.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Thesis_2017/TestClass$Atom.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Thesis_2017/TestClass$Structure.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Thesis_2017/TestClass$Template.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Thesis_2017/TestClass.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Thesis_2017/WritePDB.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/DatasetJanuary2018/ProtienNamewithValueN" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/DatasetJanuary2018/T0908/Coordinates/3sn6.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/DatasetJanuary2018/T0908/Coordinates/4c57.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/DatasetJanuary2018/T0908/Coordinates/4i13.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/DatasetJanuary2018/T0908/Coordinates/4lhq.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/DatasetJanuary2018/T0908/Coordinates/4nbx.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/DatasetJanuary2018/T0908/Coordinates/BaseConsensus/3sn6.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/DatasetJanuary2018/T0915/Coordinates/1wy6.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/DatasetJanuary2018/T0915/Coordinates/3si5.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/DatasetJanuary2018/T0915/Coordinates/5cwf.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/DatasetJanuary2018/T0915/Coordinates/5cwj.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/DatasetJanuary2018/T0915/Coordinates/5cwk.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/DatasetJanuary2018/T0915/Coordinates/BaseConsensus/5cwf.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/2o1a+3rtl.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/2o1a+3sik.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/2o1a.fasta.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/2o1a.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/3rtl+3sik.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/3rtl.fasta.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/3rtl.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/3sik+4h8p.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/3sik.fasta.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/3sik.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/4h8p+3sik.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/4h8p.fasta.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/4h8p.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/4myp+3rtl.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/4myp.fasta.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/4myp.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/Coordinates/2o1a.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/Coordinates/3rtl.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/Coordinates/3sik.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/Coordinates/4h8p.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/Coordinates/4myp.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/Coordinates/BaseConsensus/3sik.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/T0891/Coordinates/2o1a.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/T0891/Coordinates/3rtl.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/T0891/Coordinates/3sik.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/T0891/Coordinates/4h8p.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/T0891/Coordinates/4myp.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/T0891/Coordinates/BaseConsensus/3sik.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/homologs.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0891/pairs.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/1a3a.fasta.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/1a3a.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/2kjg+2oq3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/2kjg.fasta.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/2kjg.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/2mr5+1a3a.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/2mr5+2oq3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/2mr5.fasta.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/2mr5.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/2oq3.fasta.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/2oq3.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/4q7o+1a3a.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/4q7o+2kjg.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/4q7o.fasta.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/4q7o.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/Coordinates/1a3a.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/Coordinates/2kjg.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/Coordinates/2mr5.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/Coordinates/2oq3.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/Coordinates/4q7o.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/Coordinates/BaseConsensus/2mr5.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/T0895/Coordinates/1a3a.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/T0895/Coordinates/2kjg.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/T0895/Coordinates/2mr5.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/T0895/Coordinates/2oq3.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/T0895/Coordinates/4q7o.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/T0895/Coordinates/BaseConsensus/2mr5.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/homologs.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0895/pairs.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0908/3sn6+4c57.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0908/3sn6.fasta.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0908/3sn6.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0908/4c57+4i13.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0908/4c57.fasta.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0908/4c57.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0908/4i13+4nbx.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0908/4i13.fasta.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0908/4i13.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0908/4lhq (1).pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0908/4lhq+3sn6.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0908/4lhq.fasta.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0908/4lhq.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0908/4nbx+3sn6.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0908/4nbx.fasta.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0908/4nbx.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0908/Coordinates/3sn6.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0908/Coordinates/4c57.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0908/Coordinates/4i13.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0908/Coordinates/4lhq.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0908/Coordinates/4nbx.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0908/Coordinates/BaseConsensus/3sn6.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0908/homologs.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0908/pairs.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0915/1wy6+3si5.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0915/1wy6.fasta.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0915/1wy6.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0915/3si5+5cwk.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0915/3si5.fasta.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0915/3si5.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0915/5cwf+1wy6.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0915/5cwf+5cwk.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0915/5cwf.fasta.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0915/5cwf.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0915/5cwj+5cwk.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0915/5cwj.fasta.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0915/5cwj.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0915/5cwk.fasta.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0915/5cwk.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0915/Coordinates/1wy6.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0915/Coordinates/3si5.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0915/Coordinates/5cwf.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0915/Coordinates/5cwj.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0915/Coordinates/5cwk.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0915/Coordinates/BaseConsensus/5cwf.pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0915/homologs.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewPDB/T0915/pairs.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewPDB/T0866/T0866.zip" afterPath="$PROJECT_DIR$/NewPDB/T0866/T0866.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewPDB/T0866/Coordinates/1qzg.pdb.txt" afterPath="$PROJECT_DIR$/NewPDB/T0866/Coordinates/1qzg.pdb.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewPDB/T0866/Coordinates/BaseConsensus/1qzg.pdb.txt" afterPath="$PROJECT_DIR$/NewPDB/T0866/Coordinates/BaseConsensus/1qzg.pdb.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewPDB/T0866/T0866/Coordinates/1qzg.pdb.txt" afterPath="$PROJECT_DIR$/NewPDB/T0866/T0866/Coordinates/1qzg.pdb.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewPDB/T0866/T0866/Coordinates/BaseConsensus/1qzg.pdb.txt" afterPath="$PROJECT_DIR$/NewPDB/T0866/T0866/Coordinates/BaseConsensus/1qzg.pdb.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Neddle_wnch.java" afterPath="$PROJECT_DIR$/src/Neddle_wnch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template_main.java" afterPath="$PROJECT_DIR$/src/Template_main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WritePDB.java" afterPath="$PROJECT_DIR$/src/WritePDB.java" />
+    </list>
+    <ignored path="Thesis_2017.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Thesis_2017" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="WritePDB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WritePDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1wy6.pdb.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewPDB/T0915/Coordinates/1wy6.pdb.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5cwf.pdb.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NewPDB/T0915/Coordinates/BaseConsensus/5cwf.pdb.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5244755">
+              <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pairs.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewPDB/T0915/pairs.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProtienNamewithValueN" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewPDB/DatasetJanuary2018/ProtienNamewithValueN">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3si5+5cwk.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewPDB/T0915/3si5+5cwk.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="160" selection-start-line="3" selection-start-column="160" selection-end-line="3" selection-end-column="160" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homologs.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewPDB/T0915/homologs.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Template_main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Template_main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3si5.fasta.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewPDB/T0915/3si5.fasta.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5cwk.fasta.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewPDB/T0915/5cwk.fasta.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/NewPDB/T0868/3j6d+4zy8.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0868/homologs.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0877/2n41+2wfo.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0877/4zjf+5en2.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0877/5ine+2wfo.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0877/5ne2+2wfo.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0877/pairs.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0877/2n41+5ne2.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0877/homologs.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0888/1gwk+2lie.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0888/1pm4+4bj0.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0888/5duy+1gwk.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0888/1pm4+2lie.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0888/5duy+2lie.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0888/homologs.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0888/pairs.txt" />
+        <option value="$PROJECT_DIR$/src/Neddle_wnch.java" />
+        <option value="$PROJECT_DIR$/NewPDB/T0891/2o1a+3rtl.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0891/3sik+4h8p.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0891/4myp+3rtl.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0891/2o1a+3sik.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0891/4h8p+3sik.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0891/homologs.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0891/pairs.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0891/3rtl+3sik.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0895/2mr5+2oq3.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0895/4q7o+1a3a.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0895/2mr5+1a3a.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0895/2kjg+2oq3.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0895/pairs.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0895/4q7o+2kjg.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0895/homologs.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0866/Coordinates/1qzg.pdb.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0866/1qzg.pdb" />
+        <option value="$PROJECT_DIR$/NewPDB/T0908/3sn6+4c57.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0908/4i13+4nbx.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0908/4lhq+3sn6.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0908/4nbx+3sn6.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0908/pairs.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0908/4c57+4i13.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0908/homologs.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0915/1wy6+3si5.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0915/5cwf+5cwk.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0915/5cwj+5cwk.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0915/5cwf+1wy6.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0915/pairs.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0915/3si5+5cwk.txt" />
+        <option value="$PROJECT_DIR$/NewPDB/T0915/homologs.txt" />
+        <option value="$PROJECT_DIR$/src/Template_main.java" />
+        <option value="$PROJECT_DIR$/NewPDB/DatasetJanuary2018/ProtienNamewithValueN" />
+        <option value="$PROJECT_DIR$/src/WritePDB.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Thesis_2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Thesis_2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Thesis_2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Thesis_2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Thesis_2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Thesis_2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Thesis_2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewProteins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Thesis_2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Thesis_2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewPDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Thesis_2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Thesis_2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewPDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="T0915" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Thesis_2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Thesis_2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewPDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="T0915" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Coordinates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Thesis_2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Thesis_2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewPDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DatasetJanuary2018" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="wr&#9;FILE&#9;file:///Users/maliha.sarwat/Desktop/NE/Thesis_2017/src/WritePDB.java&#10;te&#9;FILE&#9;file:///Users/maliha.sarwat/Desktop/NE/Thesis_2017/src/Template_main.java&#10;wri&#9;FILE&#9;file:///Users/maliha.sarwat/Desktop/NE/Thesis_2017/src/WritePDB.java&#10;write&#9;PSI&#9;JAVA://WritePDB&#10;AV&#9;FILE&#9;file:///Users/maliha.sarwat/Desktop/Thesis_2017/src/AVG_PDB.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="96" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="106" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="110" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="896" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="96" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="106" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="110" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="896" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/NewPDB/T0908/Coordinates/BaseConsensus" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/NewPDB/T0915/Coordinates/BaseConsensus" />
+      <recent name="$PROJECT_DIR$/NewPDB/T0866/Coordinates/BaseConsensus" />
+      <recent name="$PROJECT_DIR$/NewPDB/T0895/Coordinates/BaseConsensus" />
+      <recent name="$PROJECT_DIR$/NewPDB/T0891/Coordinates/BaseConsensus" />
+      <recent name="$PROJECT_DIR$/NewPDB/T0888/Coordinates/BaseConsensus" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Template_main">
+    <configuration default="false" name="Template_main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Template_main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Thesis_2017" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="AVG_PDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="AVG_PDB" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Thesis_2017" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="WritePDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="WritePDB" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Thesis_2017" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NWAlign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="NWAlign" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Thesis_2017" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Thesis_2017" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Application.Template_main" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AVG_PDB" />
+      <item index="2" class="java.lang.String" itemvalue="Application.WritePDB" />
+      <item index="3" class="java.lang.String" itemvalue="Application.NWAlign" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.Template_main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.WritePDB" />
+        <item index="2" class="java.lang.String" itemvalue="Application.AVG_PDB" />
+        <item index="3" class="java.lang.String" itemvalue="Application.NWAlign" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da3a55c3-1099-4a83-8b75-26ee8249d6f3" name="Default" comment="" />
+      <created>1510200299805</created>
+      <option name="number" value="Default" />
+      <updated>1510200299805</updated>
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1512109303481</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1512109303482</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <created>1512113770735</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1512113770735</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test">
+      <created>1512120747762</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1512120747762</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test">
+      <created>1512717987726</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1512717987726</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test">
+      <created>1512718063708</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1512718063708</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test">
+      <created>1512760877594</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1512760877594</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test">
+      <created>1512793767777</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1512793767779</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29809105" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2584814" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39863014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3306321" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2780822" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2584814" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3306321" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39863014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Template_main.java</url>
+          <line>55</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Template_main.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Template_main.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Template_main.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Neddle_wnch.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HomologsRead.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/WritePDB.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HomologsRead.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HomologsRead.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/WritePDB.java</url>
+          <line>203</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/WritePDB.java</url>
+          <line>207</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/WritePDB.java</url>
+          <line>126</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/WritePDB.java</url>
+          <line>128</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/WritePDB.java</url>
+          <line>135</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/WritePDB.java</url>
+          <line>131</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/WritePDB.java</url>
+          <line>133</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/HomologsRead.java</url>
+          <line>11</line>
+          <properties class="HomologsRead" method="fileRead" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="20" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0866/T0866/Coordinates/2qf4.pdb.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0866/T0866/Coordinates/2x12.pdb.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0866/T0866/Coordinates/4iu2.pdb.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0866/T0866/Coordinates/1yq8.pdb.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0895/2kjg.pdb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="300.55554">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0866/1yq8.pdb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0866/2qf4.pdb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0866/Coordinates/4iu2.pdb.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0866/2x12.pdb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0866/Coordinates/1yq8.pdb.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0866/Coordinates/BaseConsensus/1qzg.pdb.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0866/T0866/Coordinates/1qzg.pdb.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0866/T0866/Coordinates/BaseConsensus/1qzg.pdb.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0866/1qzg.pdb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="549" column="0" selection-start-line="549" selection-start-column="0" selection-end-line="549" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0866/Coordinates/1qzg.pdb.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AVG_PDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ModelGeneration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0908/3sn6+4c57.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="320" selection-start-line="3" selection-start-column="320" selection-end-line="3" selection-end-column="320" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0895/2kjg+2oq3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="70" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0895/pairs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.091883615">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0908/4i13+4nbx.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0908/4lhq.pdb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0908/4lhq.fasta.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0908/4lhq+3sn6.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="320" selection-start-line="3" selection-start-column="320" selection-end-line="3" selection-end-column="320" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0908/4nbx.fasta.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0908/3sn6.fasta.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0908/4nbx+3sn6.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="320" selection-start-line="3" selection-start-column="320" selection-end-line="3" selection-end-column="320" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0908/pairs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0908/4c57.fasta.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0908/4i13.fasta.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0908/4c57+4i13.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="80" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0895/homologs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0908/homologs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0908/Coordinates/BaseConsensus/3sn6.pdb.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="736" column="59" selection-start-line="736" selection-start-column="59" selection-end-line="736" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0915/1wy6+3si5.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="160" selection-start-line="3" selection-start-column="160" selection-end-line="3" selection-end-column="160" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0915/5cwf+5cwk.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="160" selection-start-line="3" selection-start-column="160" selection-end-line="3" selection-end-column="160" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0915/5cwj.fasta.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0915/5cwj+5cwk.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="160" selection-start-line="3" selection-start-column="160" selection-end-line="3" selection-end-column="160" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0915/5cwf.fasta.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0915/1wy6.fasta.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0915/5cwf+1wy6.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="160" selection-start-line="3" selection-start-column="160" selection-end-line="3" selection-end-column="160" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0915/3si5.fasta.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0915/5cwk.fasta.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0915/3si5+5cwk.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="160" selection-start-line="3" selection-start-column="160" selection-end-line="3" selection-end-column="160" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0915/homologs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template_main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0915/pairs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/DatasetJanuary2018/ProtienNamewithValueN">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WritePDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0915/Coordinates/1wy6.pdb.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewPDB/T0915/Coordinates/BaseConsensus/5cwf.pdb.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5244755">
+          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

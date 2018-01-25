@@ -198,7 +198,7 @@ public class Neddle_wnch {
         if (sequence1.get(i - 1).equalsIgnoreCase(sequence2.get(j - 1))) {
             return 1;
         } else {
-            return -1;
+            return 0;
         }
     }
 
