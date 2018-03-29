@@ -10,8 +10,8 @@ import java.util.logging.Logger;
  */
 public class Template_main {
 
-    public static String[] queryProteins = {"T0669", "T0680", "T0696", "T0859","T0921", "T0866", "T0868", "T0877", "T0888", "T0891", "T0895", "T0908", "T0915"};
-    public static int k = 12;
+    public static String[] queryProteins = {"T0669", "T0680", "T0696", "T0859","T0921", "T0866", "T0868", "T0877", "T0888", "T0891", "T0895", "T0908", "T0915", "T0935", "T0948"};
+    public static int k = 14;
     public static void main(String[] args) throws IOException {
 
         int i;
