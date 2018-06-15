@@ -21,7 +21,7 @@ public class MAKE_SEQ_FROM_PDB {
             String firstLetterArray = "";
 
 
-            String file_path = "/Users/maliha.sarwat/Desktop/NE/Thesis_2017/Data_comparison_2018/Score_comparision_May_2018/T0866/1qzg.pdb.txt";
+            String file_path = "/Users/maliha.sarwat/Desktop/NE/Thesis_2017/Data_comparison_2018/Score_comparision_May_2018/T0866/T0866.pdb.txt";
 
             br = new BufferedReader(new FileReader(file_path));
             while ((sCurrentLine = br.readLine()) != null) {
@@ -61,7 +61,7 @@ public class MAKE_SEQ_FROM_PDB {
 
     static void writePDBCordinates(String firstLetterArray) throws IOException {
 
-        File fout = new File("/Users/maliha.sarwat/Desktop/NE/Thesis_2017/Data_comparison_2018/Score_comparision_May_2018/T0866/SEQUENCE FROM PDB CA/base_consensus_seq.txt");
+        File fout = new File("/Users/maliha.sarwat/Desktop/NE/Thesis_2017/Data_comparison_2018/Score_comparision_May_2018/T0866/SEQUENCE FROM PDB CA/T0866_seq.txt");
         FileOutputStream fos = null;
         try {
             fos = new FileOutputStream(fout);
